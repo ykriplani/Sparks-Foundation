@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+header {
+    background-image: linear-gradient(rgba(255, 254, 254, 0.5), rgba(252, 250, 250, 0.5)), url(../bgg.jpg);
+    height: 150vh;
+    background-size: cover; 
+    background-position: center; 
+} 
+
+.title {
+    position: absolute; 
+    top: 1%; 
+    left: 10%;
+    transform: translate(0%, 0%);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 6em;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    height : 600%;
+    width: 600;
+  }
+
+.head h2 {
+    color: #ffffff;
+    font-size: 25px;
+    position: absolute; 
+    top: 15%; 
+    left: 29%;
+    transform: translate(0%, 0%);
+  }
+
+.head h3{
+  color: white;
+  font-size: 20px;
+  position: absolute; 
+  top: 162%; 
+  left: 31%;
+  transform: translate(0%, 0%);
+  }
+
+.top-left {
+    position: absolute;
+    top: 188px;
+    left: 792px;
+  }
+
+.top-right {
+    position: absolute;
+    top: 240px;
+    left: 792px;
+  }
+
+.top-down {
+    position: absolute;
+    top: 275px;
+    left: 792px;
+    height:30px;
+  }
+
+.top-right2 {
+    position: absolute;
+    top: 320px;
+    left: 792px;
+  }
+
+.top-down2 {
+    position: absolute;
+    top: 350px;
+    left: 792px;
+    height:30px;
+  }
+
+.top-right3 {
+    position: absolute;
+    top: 390px;
+    left: 792px;
+  }
+
+.top-down3 {
+    position: absolute;
+    top: 420px;
+    left: 792px;
+  } 
+
+  .buttons {
+    position: absolute;
+    top: 630px;
+    left: 792px;
+    text-align: center;
+} 

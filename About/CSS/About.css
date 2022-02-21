@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+ header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../BG.jpg);
+    height: 100vh;
+    top: 25%;
+    background-size: cover;
+    background-position: center;
+} 
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav{
+    width :110%;
+    height:80%;
+    background-color: #0001;
+    line-height: 80px;
+} 
+
+.title {
+    position: absolute; 
+    top: 1%; 
+    left: 10%;
+    transform: translate(0%, 0%);
+}
+
+.slider{
+    margin :auto;
+    width:50%;
+    overflow: hidden;
+    height : 1000px;
+  }
+
+.slider figure div{
+      float :right;
+      width:20%;
+    }
+
+.slider figure img{
+    width:100%;
+    float:right;
+}
+
+.slider figure{
+    position:relative;
+    width:500%;
+    margin:10px;
+    left:5px;
+    animation: 14s project infinite ;
+}
+
+@keyframes project{
+    0%{
+        left:0%;
+    }
+    10%{
+        left:0%;
+    }
+    12%{
+        left:-100%;
+    }
+    22%{
+        left:-100%;
+    }
+    24%{
+        left:-200%;
+    }
+    34%{
+        left:-200%;
+    }
+    36%{
+        left:-300%;
+    }
+    46%{
+        left:-300%;
+    }
+    48%{
+        left:-400%;
+    }
+    58%{
+        left:-400%;
+    }
+    60%{
+        left:-300%;
+    }
+    72%{
+        left:-300%;
+    }
+
+}
+
+.copyright {
+    position: absolute;
+    top: 215%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.copyright h2 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.quotes{
+     margin-top:2%;
+     font-size: 16px;
+     text-align: center;
+}
+
+.overview {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);  
+}
+
+.goals {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.vision {
+    position: absolute;
+    top: 173%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);  
+}
+
+.OV{
+    position: absolute;
+    top: 112%;
+    left: 2%;
+  }
+
+.OV:hover {
+    transform: scale(0.97); 
+  }
+
+.G {
+    position: absolute;
+    top: 145%;
+    left: 2%;
+  }
+
+.G:hover {
+    transform: scale(0.97); 
+  }
+
+.V {
+    position: absolute;
+    top: 178%;
+    left: 2%;
+  }
+
+.V:hover {
+    transform: scale(0.97); 
+  }

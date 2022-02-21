@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+ header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../bg.jpg);
+    height: 80vh;
+    top: 25%;
+    background-size: cover;
+    background-position: center;
+} 
+
+nav{
+    width :110%;
+    height:80%;
+    background-color: #0001;
+    line-height: 80px;
+}
+
+.title {
+    position: absolute; 
+    top: 1%; 
+    left: 10%;
+    transform: translate(0%, 0%);
+}
+
+.Book {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);  
+}
+
+.B{
+    position: absolute;
+    top: 110%;
+    left: 2%;
+  }
+
+.B:hover {
+    transform: scale(0.97); 
+  }
+
+.Stationery {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.S {
+    position: absolute;
+    top: 147%;
+    left: 2%;
+  }
+
+.S:hover {
+    transform: scale(0.97); 
+  }
+
+.Health {
+    position: absolute;
+    top: 176%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);  
+}
+
+.H {
+    position: absolute;
+    top: 181%;
+    left: 2%;
+  }
+
+.H:hover {
+    transform: scale(0.97); 
+  }
+
+  .copyright {
+    position: absolute;
+    top: 220%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.copyright h2 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+  
